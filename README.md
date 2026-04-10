@@ -28,6 +28,17 @@ This project demonstrates how AI can be applied in the healthcare domain to assi
 ---
 
 ## 📁 Project Structure# healthcare_chatbot
+Health-Care-chatbot/
+│
+├── healthcare_chatbot_gui.py
+├── Data/
+│ ├── Training.csv
+│ ├── Testing.csv
+│
+├── MasterData/
+│ ├── symptom_Description.csv
+│ ├── symptom_severity.csv
+│ ├── symptom_precaution.csv
 
 📊 How It Works
 Dataset is used to train a Decision Tree Classifier
@@ -35,11 +46,15 @@ Symptoms are encoded into numerical values
 Model predicts the most probable disease
 Information is fetched from master datasets
 Results are displayed via GUI and voice output
+
+
 📈 Outcome
 Built a real-world AI application
 Learned data preprocessing & model training
 Gained experience in GUI development
 Integrated AI with user interaction and voice features
+
+
 🔮 Future Improvements
 🌐 Convert to web app (Streamlit / Flask)
 📱 Mobile app integration
